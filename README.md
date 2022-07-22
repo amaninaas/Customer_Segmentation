@@ -30,16 +30,25 @@
 https://colab.research.google.com/drive/1fiaUmVMJhwOM4pwFQ_5Cwc63_JyuYN7O?usp=sharing, <p align="justify"> you may sign in to your Google account to access it. You may need to download 'models' folder from the depository section and reupload it in the Google colab left panel before you can run it.
 </p>
 
-# Result
-
-## Model Plot
-- This are the model use to predict the customer will subscribe to the Term Deposit after the campaign or not.
+# Deep Learning Model
+- <p align="justify"> This are the model use to predict the customer will subscribe to the Term Deposit after the campaign or not.</p>
 ![model](model.png) 
 
-## Accuracy Classification Report
-![acc](Statics/Acc_cr.JPG) 
-- This model are able to predict the customer will subscribe to the Term Deposit after the campaign or not up to **0.90 of accuracy**.
+# Results 
+- <p align="justify"> This model are able to predict the customer will subscribe to the Term Deposit after the campaign or not up to  <b>0.90 of accuracy</b>. The following are graphs of my training and validation.</p>
 
+    - <p align="justify"> Loss </p>
+
+      ![loss](Statics/hist_loss.png)  
+  
+    - <p align="justify"> Accuracy </p>
+
+      ![acc](Statics/hist_acc.png) 
+  
+    - <p align="justify"> Classification Report </p>
+
+      ![acc](Statics/Acc_cr.JPG) 
+  
 
 # Credit
 This dataset is provided by 
