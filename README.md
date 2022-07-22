@@ -40,8 +40,6 @@ https://colab.research.google.com/drive/1fiaUmVMJhwOM4pwFQ_5Cwc63_JyuYN7O?usp=sh
 ![acc](Statics/Acc_cr.JPG) 
 - This model are able to predict the customer will subscribe to the Term Deposit after the campaign or not up to **0.90 of accuracy**.
 
-## Confusion Matrix - Heatmap
-![heatmap](Statics/confusion_matrix_heatmap3.png)
 
 # Credit
 This dataset is provided by 
