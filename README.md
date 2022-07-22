@@ -34,7 +34,7 @@ https://colab.research.google.com/drive/1fiaUmVMJhwOM4pwFQ_5Cwc63_JyuYN7O?usp=sh
 - <p align="justify"> This are the model use to predict the customer will subscribe to the Term Deposit after the campaign or not.</p>
 ![model](model.png) 
 
-# Results 
+# Results
 - <p align="justify"> This model are able to predict the customer will subscribe to the Term Deposit after the campaign or not up to  <b>0.90 of accuracy</b>. The following are graphs of my training and validation.</p>
 
     - <p align="justify"> Loss </p>
