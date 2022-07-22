@@ -8,40 +8,60 @@
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
+# How to install and Run the Project
+- ## PC/Laptop
+     <p align="justify"> If using PC or Laptop, you may download Customer_segmentation.py, and Customer_segmentation_module.py file from depository section.</p>
+
+     - Software Required
+       - Sypder
+       - Python (preferable the latest version)
+
+     - Module Needed
+       - Tensorflow
+       - Sklearn
+       - Pandas
+       - Numpy
+
+- ## Google Colab
+     <p align="justify"> Click on this provided link, you will be redirected to Google Colab, </p> 
+     https://colab.research.google.com/drive/1fiaUmVMJhwOM4pwFQ_5Cwc63_JyuYN7O?usp=sharing, <p align="justify"> you may sign in to your Google account to access it. 
+     You may need to download 'models' folder from the depository section and reupload it in the Google colab left panel before you can run it.</p>
+
 # Project Descriptions
-<p align="justify"> This project is to create model that able to make a prediction about customer will subscribe to the Term Deposit after the campaign using deep learning approach. </p>
+  <p align="justify"> This project is to create a model that able to make a prediction about customer will subscribe to the Term Deposit after the campaign using deep learning approach.</p>
+ 
+  ## Project Organization
+  ```
+  ├── Datasets                                    : Contains dataset used 
+  ├── Models                                      : Contains all save model (format .pkl & .h5)
+  ├── Statics                                     : Contains all save image (graph/heatmap/tensorboard)
+  ├── __pycache__                                 : Contains .pyc file
+  ├── Customer_segmentation.py                    : Code file in python format
+  ├── Customer_segmentation_module.py             : Module file in python format
+  ├── README.md                                   : Project Descriptions 
+  └── model.png                                   : Model image
+  ```
 
-# How to install an Run the Project
-## PC/Laptop
-<p align="justify"> If using PC or Laptop, you may download Customer_segmentation.py, and Customer_segmentation_module.py file from depository section.</p>
+  ## Deep Learning Model
+   - <p align="justify"> This are the model use to predict the customer will subscribe to the Term Deposit after the campaign or not.</p>
+      
+      ![model](model.png) 
 
-- Software Required
-  - Sypder
-  - Python (preferable the latest version)
+   ### Results
+   - <p align="justify"> This model are able to predict the customer will subscribe to the Term Deposit after the campaign or not up to  <b>0.90 of accuracy</b>. The  following are graphs of my training and validation.</p>
 
-- Module Needed
-  - Tensorflow
-  - Sklearn
-  - Pandas
-  - Numpy
+     - <p align="justify"> Loss </p>
 
-## Google Colab
- <p align="justify"> Click on this provided link, you will be redirected to Google Colab, </p> 
-https://colab.research.google.com/drive/1fiaUmVMJhwOM4pwFQ_5Cwc63_JyuYN7O?usp=sharing, <p align="justify"> you may sign in to your Google account to access it. You may need to download 'models' folder from the depository section and reupload it in the Google colab left panel before you can run it.
-</p>
+       ![loss](Statics/hist_loss.png)  
+  
+     - <p align="justify"> Accuracy </p>
 
-# Result
+       ![acc](Statics/hist_acc.png) 
+  
+     - <p align="justify"> Classification Report </p>
 
-## Model Plot
-- This are the model use to predict the customer will subscribe to the Term Deposit after the campaign or not.
-![model](model.png) 
-
-## Accuracy Classification Report
-![acc](Statics/Acc_cr.JPG) 
-- This model are able to predict the customer will subscribe to the Term Deposit after the campaign or not up to **0.90 of accuracy**.
-
-## Confusion Matrix - Heatmap
-![heatmap](Statics/confusion_matric_heatmap2.png)
+       ![acc](Statics/Acc_cr.JPG) 
+  
 
 # Credit
 This dataset is provided by 
