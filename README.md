@@ -26,7 +26,8 @@
   - Numpy
 
 ## Google Colab
- <p align="justify"> Click on this provided link, you will be redirected to Google Colab, </p> https://colab.research.google.com/drive/1fiaUmVMJhwOM4pwFQ_5Cwc63_JyuYN7O?usp=sharing, <p align="justify"> you may sign in to your Google account to access it. You may need to download 'models' folder from the depository section and reupload it in the Google colab left panel before you can run it.
+ <p align="justify"> Click on this provided link, you will be redirected to Google Colab, </p> 
+https://colab.research.google.com/drive/1fiaUmVMJhwOM4pwFQ_5Cwc63_JyuYN7O?usp=sharing, <p align="justify"> you may sign in to your Google account to access it. You may need to download 'models' folder from the depository section and reupload it in the Google colab left panel before you can run it.
 </p>
 
 # Result
@@ -38,7 +39,6 @@
 ## Accuracy Classification Report
 ![acc](Statics/Acc_cr.JPG) 
 - This model are able to predict the customer will subscribe to the Term Deposit after the campaign or not up to **0.90 of accuracy**.
-
 
 ## Confusion Matrix - Heatmap
 ![heatmap](Statics/confusion_matric_heatmap2.png)
