@@ -42,7 +42,7 @@
   └── model.png                                   : Model image
   ```
 
-   ## Deep Learning Model
+  ## Deep Learning Model
    - <p align="justify"> This are the model use to predict the customer will subscribe to the Term Deposit after the campaign or not.</p>
       
       ![model](model.png) 
