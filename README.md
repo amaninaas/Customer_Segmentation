@@ -9,7 +9,19 @@
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
 # Project Descriptions
-<p align="justify"> This project is to create model that able to make a prediction about customer will subscribe to the Term Deposit after the campaign using deep learning approach. </p>
+ <p align="justify"> This project is to create a model that able to make a prediction about customer will subscribe to the Term Deposit after the campaign using deep learning approach.</p>
+ 
+# Project Organization
+```
+├── Datasets                                    : Contains dataset used 
+├── Models                                      : Contains all save model (format .pkl & .h5)
+├── Statics                                     : Contains all save image (graph/heatmap/tensorboard)
+├── __pycache__                                 : Contains .pyc file
+├── Customer_segmentation.py                    : Code file in python format
+├── Customer_segmentation_module.py             : Module file in python format
+├── README.md                                   : Project Report 
+└── model.png                                   : Model image
+```
 
 # How to install an Run the Project
 ## PC/Laptop
